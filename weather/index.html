@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="style.css">
+    <title>My weather app</title>
+</head>
+<body>
+    <div class="weather-app">
+        <form class="search-form" action="">
+            <input class="city-input" type="text" placeholder="Enter the city">
+            <button class="search-button" type="submit"> 
+                <i class="material-icons" style="font-size: 18px;">search</i>
+            </button>
+        </form>
+
+        <div class="city-date">
+            <h2 class="city"> Delhi</h2>
+            <p class="date"> 7 jan 2024</p>
+        </div>
+
+
+        <div class="temprature-info">
+            <div class="description"> 
+                <i class="material-icons">sunny</i>
+                <div class="description-text">Sunny Day </div>
+            </div>
+            <div class="temprature">20°C </div>
+            <br>
+        </div>
+
+
+        <div class="addition-info">
+
+
+            <div class="wind-info">
+            <div><i class="material-icons">air</i></div>
+
+                <div class="wind-speed">4km/h</div>
+               <div></div> <p>Wind</p>
+            </div>
+
+            <div class="humidity-info">
+                <i class="material-icons">water_drop</i>
+                <div class="humidity">45%</div>
+                <p>humidity</p>
+            </div>
+
+            <div class="visiblity-info">
+                <i class="material-icons">Visiblity</i>
+                <div class="Visiblity-distance">4km</div>
+                <p>Visiblity</p>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

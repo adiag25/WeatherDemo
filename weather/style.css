@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: blue;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100vh;
+
+}
+.weather-app{
+    background-color: aqua;
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 30px;
+    border-radius: 15px;
+
+}
+.search-form{
+    display:flex;
+    align-items: center;
+}
+ input[type="text"]{
+    flex: 1;
+    padding: 20px;
+    border:none;
+    border-radius: 15px;
+    font-size: 1rem;
+ }
+ .search-button{
+    background-color: aquamarine;
+    padding: 15px;
+    border: none;
+    border-radius: 15px;
+    color: aliceblue;
+    margin-left: 10px;
+ }
+ .search-button:hover{
+    background-color: blueviolet;
+    /* transition:  background-color 0.03 sec; */
+ }
+
+ .city-date{
+    align-items: center;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+ }
+
+.city{
+    font-size: 3rem;
+    opacity:1.9;
+}
+
+
+ .date{
+  background-color: aliceblue;
+  padding: 15px 15px;
+  border-radius: 15px;
+ }
+
+ .temprature-info{
+   /* background-color: blanchedalmond; */
+   border-radius: 15px;
+   border: none;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+ }
+
+ .temprature{
+    margin-top: 10px;
+    font-size: 50px;
+ }
+
+ .description{
+    display: flex;
+    font-size: 1rem;
+ }
+ 
+ .description-text{
+   margin-left: 15px;
+   font-size: 20px;
+ }
+
+ .addition-info{
+   /* background-color: violet; */
+   margin-top: 25px;
+   /* margin-right: 25px ; */
+   display: flex;
+   justify-content: space-between;
+   justify-content: space-around;
+ }
+
+ .visiblity-info,
+ .humidity-info,
+ .wind-info{
+   background-color: rgba(56, 39, 145, 0);
+   width: 150px;
+   /* display:flex; */
+   align-items:center;
+   justify-content: center;
+   gap: 15px;
+
+}
+
+ .humidity-info{
+   margin-left: 25px;
+   width: 30%;
+ }
+ .visiblity-info{
+   margin-left: 25px;
+   width: 30%;
+ }
+ .wind-info{
+   /* margin-left: 25px; */
+   width: 30%;
+ }
